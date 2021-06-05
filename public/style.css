@@ -32,7 +32,8 @@
 
 .whatWeDo{
     display: flex;
-    background-color:#F4D58D ;
+    background-color:#F4D58D;
+    height: 570px;
 }
 
 .article-1{
@@ -46,12 +47,35 @@
 }
 
 .coverPhoto{
-    width:45%;
+    height: 70%;
     margin: 40px 10px 40px 10px;
     border-radius: 5px;
 }
+
+.OurMenu{
+    background-color: #3c5770;
+    height: 500px;
+}
+
+.cards-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0 50px;
+}
+
 .card{
     width: 300px;
-    height: 500px;
+    height: 400px;
     color: brown;
+    box-shadow: 0px 0px 10px 5px #001427;
+}
+
+.img{
+    height: 60%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    width: 10% !important;
 }
