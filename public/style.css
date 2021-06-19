@@ -1,4 +1,4 @@
-/* 001427, F4D58D, 708D81, BF0603, 8D0801 */
+
 * {
     padding:0;
     margin:0;
@@ -6,8 +6,12 @@
     list-style:none;
     border:0;
     font-family: 'Roboto', sans-serif;
-    }
-    
+}
+
+h2{
+    padding-top: 20px;
+    margin-left:40px
+}
 .navbar{
     display: flex;
     height: 100px;
@@ -31,30 +35,29 @@
 }
 
 .whatWeDo{
-    display: flex;
     background-color:#F4D58D;
     height: 570px;
 }
+.O-que-fazemos{
+    display: flex;
+    align-items: center;
+}
 
-.article-1{
-    margin: 40px 40px 10px 80px;
-    width: 40%;
-    height:400px ;
-    resize: none;
-    font-size: large;
-    outline: none;
-    background-color: #F4D58D;
+.Article-1{
+    margin: 20px 30px 20px 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
 }
 
 .coverPhoto{
-    height: 70%;
-    margin: 40px 10px 40px 10px;
+    height: 450px;
+    margin: 5px 50px 40px 10px;
     border-radius: 5px;
 }
 
 .OurMenu{
     background-color: #3c5770;
-    height: 500px;
+    height: 650px;
 }
 
 .cards-row{
@@ -78,4 +81,76 @@
 .carousel-control-next,
 .carousel-control-prev{
     width: 10% !important;
+}
+
+.AboutUs{
+    background-color: #a77678 ;
+
+}
+.About{
+    display: flex;
+    align-items: center;
+}
+.SobreNos{
+    width: 40%;
+    margin: 40px 40px 20px 40px;
+    border-radius: 5px;
+}
+.Article-2{
+    margin: 40px 30px 20px 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+.ContactUs{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    background-color: rgb(34, 11, 22);
+}
+.form{
+    width: 700px;  
+}
+.Name,
+.Email,
+.Phone{
+    margin: 10px;
+    width: 250px;
+    background-color: rgb(230, 225, 218);
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.PersonalInfo{
+    display:flex;
+    justify-content: space-between;
+}
+.card-message{
+    display: flex;
+    flex-direction: column;
+}
+.message{
+    height: 150px;
+    background-color:  rgb(230, 225, 218);
+}
+.button,
+.message{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+}
+.button{
+    background-color: rgb(119, 94, 118);
+}
+.button:hover{
+    background-color: rgb(32, 94, 19);
+    color: rgb(245, 236, 219)
+}
+.Contact{
+    color: thistle;
+}
+ul{
+    padding-left: 0 !important;
 }

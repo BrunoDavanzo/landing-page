@@ -11,12 +11,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
   <title>B&T</title>
 </head>
 
 <body>
   <header class="navbar">
-    <img class="logo" src="/img/B&T1.png">
+    <img class="logo" src="img/B&T1.png">
     <ul class="menu">
       <li>What We Do</li>
       <li>Our Menu</li>
@@ -24,19 +28,24 @@
       <li>Contact Us</li>
     </ul>
   </header>
+  
   <section class="whatWeDo">
-    <textarea class="article-1" readonly>
+    <h2>What We Do</h2>
+    <div class="O-que-fazemos">
+    <p class="Article-1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
             mollit anim id est laborum. 
-        </textarea>
-    <img class="coverPhoto" src="/img/foto-de-entrada.jpg">
+    </p>
+    <img class="coverPhoto" src="img/foto-de-entrada.jpg">
+  </div>
   </section>
   
   <section class="OurMenu">
+    <h2> Our Menu </h2>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -110,7 +119,7 @@
             </div>
 
             <div class="card">
-              <img class="img" src="img//panqueca de beterraba.jpeg">
+              <img class="img" src="img/panqueca de beterraba.jpeg">
               <div class="card-body">
                 <h4 class="card-title">Special title treatment</h4>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -141,6 +150,53 @@
     </div>
 
   </section>
+
+<section class="AboutUs">
+  <h2>About Us</h2>
+  <div class="About">
+  <img class="SobreNos" src="img/AboutUs.jpg">
+  <p class="Article-2">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+            mollit anim id est laborum. 
+  </p>
+</div>
+</section>
+<section class="ContactUs">
+  <form class="form">
+  <div class="PersonalInfo">
+    <input type="text" class="Name" placeholder="Name">
+    <input type="text" class="Email" placeholder="Email">
+    <input type="text" class="Phone" placeholder="Phone Number">
+  </div>
+  <div class="card-message">
+    <textarea type="text" class="message" placeholder="Message"></textarea>
+    <button class="button" type="submit">Send</button>
+  </div>
+</form>
+<article class="Contact">
+  <h1>Contact Us</h1>
+  <ul>
+    <li>
+      <i class="fas fa-mobile-alt"></i>
+      <span>(11)99248-5523</span>
+
+      </li>
+    <li>
+      <i class="fas fa-map-marker-alt"></i>
+     <span> 21, Washington Street</span>
+    
+     </li>
+    <li>
+      <i class="fas fa-envelope-open-text"></i>
+      <span>bntfood@hotmail.com</span>
+    </li>
+  </ul>
+</article>
+</section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
