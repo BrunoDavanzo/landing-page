@@ -7,10 +7,16 @@
     border:0;
     font-family: 'Roboto', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 h2{
     padding-top: 20px;
-    margin-left:40px
+    margin-left:40px;
+}
+h1, h2{
+    font-family: 'Special Elite', cursive;
 }
 .navbar{
     display: flex;
@@ -27,13 +33,19 @@ h2{
     display: flex;
     justify-content: space-evenly;
     width: 70vw;
-    align-items:flex-end;   
-    font-weight: 400;
-    font-size: large;
+    align-items:flex-end;
     color: #F4D58D;
     margin-bottom: -45px;
 }
-
+li a{
+    color: #F4D58D;
+    text-decoration: none;
+    font-family: 'Special Elite', cursive;
+    font-size: 22px;
+}
+li a:hover{
+    color:#d1bd0c;
+}
 .whatWeDo{
     background-color:#F4D58D;
     height: 570px;
@@ -53,10 +65,11 @@ h2{
     height: 450px;
     margin: 5px 50px 40px 10px;
     border-radius: 5px;
+    box-shadow: 5px 5px 20px #000000;
 }
 
 .OurMenu{
-    background-color: #3c5770;
+    background-color: #b3bfca;
     height: 650px;
 }
 
@@ -84,7 +97,8 @@ h2{
 }
 
 .AboutUs{
-    background-color: #a77678 ;
+    background-color: #a77678;
+    height: 600px;
 
 }
 .About{
@@ -92,12 +106,13 @@ h2{
     align-items: center;
 }
 .SobreNos{
-    width: 40%;
+    width: 50%;
     margin: 40px 40px 20px 40px;
     border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px #3e3939;
 }
 .Article-2{
-    margin: 40px 30px 20px 50px;
+    margin: 40px 40px 20px 50px;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 20px;
 }
