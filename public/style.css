@@ -18,11 +18,14 @@ h2{
 h1, h2{
     font-family: 'Special Elite', cursive;
 }
+header{
+    position: sticky;
+    top: 0;
+}
 .navbar{
     display: flex;
     height: 100px;
     background-color: #8D0801;
-    
 }
 .logo{
     margin-right: 10px;
@@ -168,4 +171,31 @@ li a:hover{
 }
 ul{
     padding-left: 0 !important;
+}
+
+.whatsapp-link{
+    font-size: 40px;
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50%;
+	text-align:center;
+    z-index:100;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+
+.whatsapp-link:hover{
+    color:#FFF;
+    background-color: #04858F;
+}
+
+.fa-whatsapp{
+    margin-top: 10px;
 }
