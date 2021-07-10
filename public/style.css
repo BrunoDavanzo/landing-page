@@ -199,3 +199,29 @@ ul{
 .fa-whatsapp{
     margin-top: 10px;
 }
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 115px;
+    background-color: #e4db97;
+}
+.developers,
+.policy a{
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
+.social-media a{
+    font-size: 40px;
+    color: rgb(44, 40, 40);
+    padding: 5px;
+}
+.policy a{
+    margin-right: 20px;
+    color: black;
+}
+.social-media a:hover,
+.policy a:hover{
+    color: rgb(80, 76, 76);
+}
