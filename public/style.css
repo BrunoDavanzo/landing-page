@@ -19,28 +19,30 @@ h1, h2{
     font-family: 'Special Elite', cursive;
 }
 header{
-    position: sticky;
-    top: 0;
-}
-.navbar{
     display: flex;
-    height: 100px;
+    /* height: 100px; */
     background-color: #8D0801;
 }
 .logo{
     margin-right: 10px;
-    width: 11%;
+    width: 14%;
 }
-
+nav{
+    background-color:#8D0801;
+    position: sticky;
+    top: 0;
+    padding:5px ;
+    
+}
 .menu{
     display: flex;
     justify-content: space-evenly;
-    width: 70vw;
+    width: 100vw;
     align-items:flex-end;
     color: #F4D58D;
-    margin-bottom: -45px;
+    margin: 0;
 }
-li a{
+nav ul li a{
     color: #F4D58D;
     text-decoration: none;
     font-family: 'Special Elite', cursive;
