@@ -1,5 +1,6 @@
 
 * {
+    width: auto;
     padding:0;
     margin:0;
     vertical-align:baseline;
@@ -20,7 +21,7 @@ h1, h2{
 }
 header{
     display: flex;
-    /* height: 100px; */
+    height: 100px;
     background-color: #8D0801;
 }
 .logo{
@@ -32,12 +33,13 @@ nav{
     position: sticky;
     top: 0;
     padding:5px ;
+    z-index: 1;
     
 }
 .menu{
     display: flex;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 90vw;
     align-items:flex-end;
     color: #F4D58D;
     margin: 0;
@@ -52,29 +54,31 @@ li a:hover{
     color:#d1bd0c;
 }
 .whatWeDo{
-    background-color:#F4D58D;
+    background-color:#D9B54A;
     height: 570px;
 }
 .O-que-fazemos{
     display: flex;
-    align-items: center;
+    align-items:center;
+    margin: 0;
 }
 
-.Article-1{
-    margin: 20px 30px 20px 50px;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 20px;
+.article-1{
+    margin: 20px 30px 20px 30px;
+    font-family: 'Bree Serif', serif;
+    font-size: 22px;
 }
 
 .coverPhoto{
-    height: 450px;
-    margin: 5px 50px 40px 10px;
+    width: 45%;
+    height: 40%;
+    margin: 5px 5px 0px 40px;
     border-radius: 5px;
     box-shadow: 5px 5px 20px #000000;
 }
 
 .OurMenu{
-    background-color: #b3bfca;
+    background-color: #F2DA5E;
     height: 650px;
 }
 
@@ -88,12 +92,20 @@ li a:hover{
     width: 300px;
     height: 400px;
     color: brown;
-    box-shadow: 0px 0px 10px 5px #001427;
+    box-shadow: 0px 0px 10px 0px #001427;
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+p, h4{
+    font-family: 'Bree Serif', serif;
 }
 
 .img{
     height: 60%;
     border-radius: 5px 5px 0px 0px;
+    
 }
 
 .carousel-control-next,
@@ -102,7 +114,7 @@ li a:hover{
 }
 
 .AboutUs{
-    background-color: #a77678;
+    background-color: #F2E85C;
     height: 600px;
 
 }
@@ -118,15 +130,15 @@ li a:hover{
 }
 .Article-2{
     margin: 40px 40px 20px 50px;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: 21px;
 }
 .ContactUs{
     padding-top: 100px;
     display: flex;
     justify-content: space-evenly;
     height: 450px;
-    background-color: rgb(34, 11, 22);
+    background-color: #e4db97;
 }
 .form{
     width: 700px;  
@@ -136,7 +148,7 @@ li a:hover{
 .Phone{
     margin: 10px;
     width: 250px;
-    background-color: rgb(230, 225, 218);
+    background-color: rgb(251, 251, 251);
     border-radius: 3px;
     padding: 5px;
     border: none;
@@ -152,7 +164,7 @@ li a:hover{
 }
 .message{
     height: 150px;
-    background-color:  rgb(230, 225, 218);
+    background-color:  rgb(251, 251, 251);
 }
 .button,
 .message{
@@ -162,14 +174,14 @@ li a:hover{
     outline: none;
 }
 .button{
-    background-color: rgb(119, 94, 118);
+    background-color: rgb(202, 199, 18);
 }
 .button:hover{
-    background-color: rgb(32, 94, 19);
-    color: rgb(245, 236, 219)
+    background-color: rgb(193, 188, 28);
+    color: rgb(17, 14, 9)
 }
 .Contact{
-    color: thistle;
+    color: rgb(10, 8, 10);
 }
 ul{
     padding-left: 0 !important;
@@ -206,7 +218,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     height: 115px;
-    background-color: #e4db97;
+    background-color: #D2D7D9;
 }
 .developers,
 .policy a{
