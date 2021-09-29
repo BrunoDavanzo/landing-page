@@ -9,7 +9,8 @@
     font-family: 'Roboto', sans-serif;
 }
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: [auto smooth];
+    width: 100%;
 }
 
 h2{
@@ -32,14 +33,14 @@ nav{
     background-color:#8D0801;
     position: sticky;
     top: 0;
-    padding:5px ;
+    padding:2px ;
     z-index: 1;
     
 }
 .menu{
     display: flex;
     justify-content: space-evenly;
-    width: 90vw;
+    width: 85vw;
     align-items:flex-end;
     color: #F4D58D;
     margin: 0;
@@ -55,7 +56,8 @@ li a:hover{
 }
 .whatWeDo{
     background-color:#D9B54A;
-    height: 570px;
+    height: 670px;
+    padding-top:20px;
 }
 .O-que-fazemos{
     display: flex;
@@ -80,6 +82,8 @@ li a:hover{
 .OurMenu{
     background-color: #F2DA5E;
     height: 650px;
+    padding-top:20px;
+
 }
 
 .cards-row{
@@ -115,7 +119,9 @@ p, h4{
 
 .AboutUs{
     background-color: #F2E85C;
-    height: 600px;
+    height: 622px;
+    padding-top:20px;
+
 
 }
 .About{
@@ -137,7 +143,7 @@ p, h4{
     padding-top: 100px;
     display: flex;
     justify-content: space-evenly;
-    height: 450px;
+    height: 480px;
     background-color: #e4db97;
 }
 .form{
