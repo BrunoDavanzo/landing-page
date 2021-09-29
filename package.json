@@ -20,6 +20,9 @@
   "homepage": "https://github.com/BrunoDavanzo/landing-page#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemailer": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
